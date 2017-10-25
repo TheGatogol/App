@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/calentar"
+            android:title="Guía de Calentamiento" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ejercicio"
+            android:title="Guía de Ejercicios" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/estirar"
+            android:title="Guía de Estiramiento" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/rutina"
+            android:title="Plan de Entrenamiento" />
+
+        <item
+            android:id="@+id/nav"
+            android:icon="@drawable/alimentacion"
+            android:title="Plan Alimenticio" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/comprar"
+                android:title="Adquiere Versión Pro" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/comparte"
+                android:title="Comparte" />
+        </menu>
+    </item>
+
+</menu>
